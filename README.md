@@ -20,8 +20,8 @@
 
 | **Training Pair** | **Test Prompt 1** | **Test Prompt 2** | **Test Prompt 3** |
 |-------------------|-------------------|-------------------|-------------------|
-| ![](results/cat-apple.mp4)<br>`"apple-cat"` | ![](results/running pineapple-cat.gif)<br>`"running pineapple-cat"` | ![](results/running banana-cat.gif)<br>`"running banana-cat"` | ![](results/running green apple-pig.gif)<br>`"running green apple-pig"` |
-| ![](results/popping cat.mp4)<br>`"popping cat"` | ![](results/popping cow.gif)<br>`"popping cow"` | ![](results/popping rabbit.gif)<br>`"popping rabbit"` | ![](results/popping pig.gif)<br>`"popping pig"` | ![](results/Basenji dog.gif)<br>`"Basenji dog"` |
+| ![](results/cat_apple.mp4)<br>`"apple-cat"` | ![](results/running_pineapple_cat.gif)<br>`"running pineapple-cat"` | ![](results/running_banana_cat.gif)<br>`"running banana-cat"` | ![](results/running_green_apple_pig.gif)<br>`"running green apple-pig"` |
+| ![](results/popping_cat.mp4)<br>`"popping cat"` | ![](results/popping_cow.gif)<br>`"popping cow"` | ![](results/popping_rabbit.gif)<br>`"popping rabbit"` | ![](results/popping_pig.gif)<br>`"popping pig"` | ![](results/Basenji_dog.gif)<br>`"Basenji dog"` |
 
 > Each row shows a training (text, video) pair, followed by test results from unseen prompts.
 
