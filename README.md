@@ -8,11 +8,22 @@
 
 ## 🧠 Core Features
 
-- ⚡ **Fast Inference** on 8GB GPUs (Tiny-SD backbone + motion module)
+- ⚡ **Fast Inference** on 8GB GPUs (stable-diffusion backbone + motion module)
 - 🐥 **Lightweight Model** (based on stable-diffusion-v1-5 + AnimateDiff-style motion)
+- 🧪 **Trained on one (text, video) pair** for fine-tuned personalization
 - 🎭 **Emoji/Meme Style Control** 
 - 🔁 **Short GIF Output** (1–2 seconds, 128×128 or 256×256)
 - 🧾 **Prompt-based Generation** for expressive messaging UX
+
+---
+## 📊 Results
+
+| **Training Pair** | **Test Prompt 1** | **Test Prompt 2** | **Test Prompt 3** |
+|-------------------|-------------------|-------------------|-------------------|
+| ![](results/cat-apple.mp4)<br>`"apple-cat"` | ![](results/running pineapple-cat.gif)<br>`"running pineapple-cat"` | ![](results/running banana-cat.gif)<br>`"running banana-cat"` | ![](results/running green apple-pig.gif)<br>`"running green apple-pig"` |
+| ![](results/popping cat.mp4)<br>`"popping cat"` | ![](results/popping cow.gif)<br>`"popping cow"` | ![](results/popping rabbit.gif)<br>`"popping rabbit"` | ![](results/popping pig.gif)<br>`"popping pig"` | ![](results/Basenji dog.gif)<br>`"Basenji dog"` |
+
+> Each row shows a training (text, video) pair, followed by test results from unseen prompts.
 
 ---
 
