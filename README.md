@@ -11,7 +11,7 @@
 
 - 🐥 **Lightweight Model** (based on stable-diffusion-v1-5)
 - ⚡ **Fast Inference** ~ 8sec sampling time.
--                      ~ 30 minutes finetuning time, this model is finetuned using one training (text, video) pair, trained on 8GB GPUs within 200 iterations.
+- ~ 30 minutes finetuning time, this model is finetuned using one training (text, video) pair, trained on 8GB GPUs within 200 iterations.
 - 🧪 **Trained on one (text, video) pair** for fine-tuned personalization
 - 🎭 **Emoji/Meme Style Control** 
 - 🔁 **Short GIF Output** (1–2 seconds, 128×128 or 256×256)
