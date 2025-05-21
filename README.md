@@ -8,8 +8,9 @@
 
 ## 🧠 Core Features
 
-- ⚡ **Fast Inference** ~ 10sec on 8GB GPUs (stable-diffusion backbone)
-- 🐥 **Lightweight Model** (based on stable-diffusion-v1-5 + AnimateDiff-style motion)
+
+- 🐥 **Lightweight Model** (based on stable-diffusion-v1-5)
+- ⚡ **Fast Inference** ~ 8sec sampling time. ~ 30 minutes finetuning time, this model is finetuned using one training (text, video) pair, trained on 8GB GPUs within 200 iterations.
 - 🧪 **Trained on one (text, video) pair** for fine-tuned personalization
 - 🎭 **Emoji/Meme Style Control** 
 - 🔁 **Short GIF Output** (1–2 seconds, 128×128 or 256×256)
@@ -20,7 +21,7 @@
 
 | **Training Pair** | **Test Prompt 1** | **Test Prompt 2** | **Test Prompt 3** | **Test Prompt 4** |
 |-------------------|-------------------|-------------------|-------------------|-------------------|
-| ![](results/cat_apple.gif)<br>`"running apple-cat"` | ![](results/running_pineapple_cat.gif)<br>`"running pineapple-cat"` | ![](results/running_banana_cat.gif)<br>`"running banana-cat"` | ![](results/running_green_apple_pig.gif)<br>`"running green apple-pig"` |
+| ![](results/cat_apple.gif)<br>`"running apple-cat"` | ![](results/running_pineapple_cat.gif)<br>`"running pineapple-cat"` | ![](results/running_banana_cat.gif)<br>`"running banana-cat"` | ![](results/running_green_apple_pig.gif)<br>`"running green apple-pig"` | ![](results/running_blueberry-elephant.gif)<br>`"running blueberry-elephant"` 
 | ![](results/cat_pop.gif)<br>`"popping cat"` | ![](results/popping_cow.gif)<br>`"popping cow"` | ![](results/popping_rabbit.gif)<br>`"popping rabbit"` | ![](results/popping_pig.gif)<br>`"popping pig"` | ![](results/popping_Basenji_dog.gif)<br>`"popping dog"` |
 
 
