@@ -29,7 +29,7 @@
 
 ## 🛠️ Model Architecture
 
-- **Backbone**: [Tiny-Stable-Diffusion](https://github.com/lambdal/Tiny-Stable-Diffusion)
+- **Backbone**: [Stable-Diffusion](https://huggingface.co/sd-legacy/stable-diffusion-v1-5)
 - **Temporal Layer**: Custom 2D → 3D motion blocks or AnimateDiff-style add-ons
 - **Training Framework**: Modified [Tune-A-Video](https://github.com/showlab/Tune-A-Video)
 - **Input**: Short sentence or phrase (`"running pineapple-cat"`, `"dancing cat"`)
