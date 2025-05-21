@@ -8,7 +8,7 @@
 
 ## 🧠 Core Features
 
-- ⚡ **Fast Inference** on 8GB GPUs (stable-diffusion backbone + motion module)
+- ⚡ **Fast Inference** ~ 10sec on 8GB GPUs (stable-diffusion backbone)
 - 🐥 **Lightweight Model** (based on stable-diffusion-v1-5 + AnimateDiff-style motion)
 - 🧪 **Trained on one (text, video) pair** for fine-tuned personalization
 - 🎭 **Emoji/Meme Style Control** 
@@ -16,21 +16,21 @@
 - 🧾 **Prompt-based Generation** for expressive messaging UX
 
 ---
-## 📊 Results
+## 📊 Results > Each row shows a training (text, video) pair, followed by test results from unseen prompts.
 
 | **Training Pair** | **Test Prompt 1** | **Test Prompt 2** | **Test Prompt 3** | **Test Prompt 4** |
 |-------------------|-------------------|-------------------|-------------------|-------------------|
 | ![](results/cat_apple.gif)<br>`"running apple-cat"` | ![](results/running_pineapple_cat.gif)<br>`"running pineapple-cat"` | ![](results/running_banana_cat.gif)<br>`"running banana-cat"` | ![](results/running_green_apple_pig.gif)<br>`"running green apple-pig"` |
 | ![](results/cat_pop.gif)<br>`"popping cat"` | ![](results/popping_cow.gif)<br>`"popping cow"` | ![](results/popping_rabbit.gif)<br>`"popping rabbit"` | ![](results/popping_pig.gif)<br>`"popping pig"` | ![](results/popping_Basenji_dog.gif)<br>`"popping dog"` |
 
-> Each row shows a training (text, video) pair, followed by test results from unseen prompts.
+
 
 ---
 
 ## 🛠️ Model Architecture
 
 - **Backbone**: [Stable-Diffusion](https://huggingface.co/sd-legacy/stable-diffusion-v1-5)
-- **Temporal Layer**: Custom 2D → 3D motion blocks or AnimateDiff-style add-ons
+- **Temporal Layer**: Custom 2D → 3D motion blocks 
 - **Training Framework**: Modified [Tune-A-Video](https://github.com/showlab/Tune-A-Video)
 - **Input**: Short sentence or phrase (`"running pineapple-cat"`, `"dancing cat"`)
 - **Output**: Animated video (gif or mp4, 16–24 frames)
