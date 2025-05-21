@@ -2,7 +2,7 @@
 
 **Text-to-Meme-Star** is a lightweight text-to-video generation model that creates short animated gifs (meme or emoji-style) from natural language prompts. It's optimized for low-latency applications like **chat apps**, where users want a fast, expressive animation generated on the fly from a few words.
 
-> ✨ Example: Input — “dancing xxx” → Output — 🤯 animated gif of an dancing cat/dog cartoon.
+> ✨ Example: Input — “dancing xxx” → Output — 🤯 animated gif of an dancing cat (or other animals) cartoon.
 
 ---
 
