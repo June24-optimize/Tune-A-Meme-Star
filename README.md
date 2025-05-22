@@ -49,10 +49,10 @@ cd text-to-meme-star
 conda create -n meme-star python=3.9
 conda activate meme-star
 pip install -r requirements.txt
-
+```
+---
 
 ## Acknowledgements
-
 This project is built upon [Tune-A-Video](https://github.com/showlab/Tune-A-Video).  
 Special thanks to the original authors for their excellent work on text-to-video generation.
 
