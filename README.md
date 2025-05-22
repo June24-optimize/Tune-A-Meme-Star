@@ -24,6 +24,8 @@
 |-------------------|-------------------|-------------------|-------------------|-------------------|
 | ![](results/cat_apple.gif)<br>`"running apple-cat"` | ![](results/running_pineapple_cat.gif)<br>`"running pineapple-cat"` | ![](results/running_banana_cat.gif)<br>`"running banana-cat"` | ![](results/running_green_apple_pig.gif)<br>`"running green apple-pig"` | ![](results/running_blueberry_elephant.gif)<br>`"running blueberry-elephant"` 
 | ![](results/cat_pop.gif)<br>`"popping cat"` | ![](results/popping_cow.gif)<br>`"popping cow"` | ![](results/popping_rabbit.gif)<br>`"popping rabbit"` | ![](results/popping_pig.gif)<br>`"popping pig"` | ![](results/popping_Basenji_dog.gif)<br>`"popping dog"` |
+| ![](results/cat_happy.gif)<br>`"happy cat"` | ![](results/happy_fox_with_FRIDAY_MOOD_text.gif)<br>`"happy birthday cake with HAPPY BIRTHDAY text"` | ![](results/happy_avocado.gif)<br>`"happy rabbit with LOL text"` | ![](results/happy_birthday_cake.gif)<br>`"happy avocado with Yeah~ text"` | ![](results/happy_fox_with_FRIDAY_MOOD_text.gif)<br>`"happy fox with FRIDAY MOOD text"` |
+
 
 > Each row shows a training (text, video) pair, followed by test results from unseen prompts.
 
@@ -34,7 +36,7 @@
 - **Backbone**: [Stable-Diffusion](https://huggingface.co/sd-legacy/stable-diffusion-v1-5)
 - **Temporal Layer**: Custom 2D → 3D motion blocks 
 - **Training Framework**: Modified [Tune-A-Video](https://github.com/showlab/Tune-A-Video)
-- **Input**: Short sentence or phrase (`"running pineapple-cat"`, `"dancing cat"`)
+- **Input**: Short sentence or phrase (`"running pineapple-cat"`, `"dancing cat with FRIDAY MOOD text"`)
 - **Output**: Animated video (gif or mp4, 16–24 frames)
 
 ---
